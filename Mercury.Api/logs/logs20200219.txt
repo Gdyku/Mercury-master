@@ -1,0 +1,3 @@
+2020-02-19 20:15:05.099 +01:00 [ERR] ScheduleController | Error | Error message : Object reference not set to an instance of an object.
+2020-02-19 20:28:07.250 +01:00 [ERR] ScheduleController | Error | Error message : Object reference not set to an instance of an object.
+2020-02-19 20:28:52.896 +01:00 [ERR] ScheduleController | Error | Error message : Object reference not set to an instance of an object.

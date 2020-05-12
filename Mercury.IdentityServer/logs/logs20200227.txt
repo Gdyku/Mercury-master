@@ -1,0 +1,571 @@
+2020-02-27 15:53:11.274 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 15:53:11.326 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 15:53:11.336 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 15:53:11.336 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 15:53:11.336 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 15:53:11.336 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 15:53:11.336 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 15:53:11.337 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 15:53:11.565 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 15:53:11.566 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 15:53:11.566 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 15:53:11.566 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 15:53:11.566 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 15:53:11.566 +01:00 [DBG] Error Url: /home/error
+2020-02-27 15:53:11.566 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 15:56:03.987 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 15:56:04.032 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 15:56:04.035 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 15:56:04.035 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 15:56:04.035 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 15:56:04.035 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 15:56:04.035 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 15:56:04.035 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 15:56:04.264 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 15:56:04.265 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 15:56:04.265 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 15:56:04.265 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 15:56:04.265 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 15:56:04.265 +01:00 [DBG] Error Url: /home/error
+2020-02-27 15:56:04.265 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 15:56:21.631 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-02-27 15:56:21.633 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-02-27 15:56:21.633 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-02-27 15:56:21.636 +01:00 [DBG] Start discovery request
+2020-02-27 15:56:21.895 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-02-27 15:56:21.895 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-02-27 15:56:21.895 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-02-27 15:56:21.897 +01:00 [DBG] Start key discovery request
+2020-02-27 18:42:25.218 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 18:42:25.264 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 18:42:25.267 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 18:42:25.267 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 18:42:25.267 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 18:42:25.267 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 18:42:25.267 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 18:42:25.267 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 18:42:25.544 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 18:42:25.546 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 18:42:25.546 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 18:42:25.546 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 18:42:25.546 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 18:42:25.546 +01:00 [DBG] Error Url: /home/error
+2020-02-27 18:42:25.546 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 18:42:52.075 +01:00 [DBG] Request path /connect/token matched to endpoint type Token
+2020-02-27 18:42:52.086 +01:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2020-02-27 18:42:52.087 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-02-27 18:42:52.089 +01:00 [WRN] Invalid HTTP request for token endpoint
+2020-02-27 18:43:59.287 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:43:59.323 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:43:59.323 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:43:59.327 +01:00 [DBG] Start authorize request
+2020-02-27 18:43:59.335 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:43:59.337 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:43:59.350 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:43:59.368 +01:00 [ERR] malformed redirect_uri: /
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"/"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:43:59.373 +01:00 [ERR] Request validation failed
+2020-02-27 18:43:59.373 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"/"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:45:38.663 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:45:38.674 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:45:38.682 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:45:38.682 +01:00 [DBG] Start authorize request
+2020-02-27 18:45:38.683 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:45:38.683 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:45:38.683 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:45:38.687 +01:00 [ERR] Invalid redirect_uri: http://localhost:5000/account/login
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5000/account/login"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:45:38.687 +01:00 [ERR] Request validation failed
+2020-02-27 18:45:38.687 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5000/account/login"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:46:07.777 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:46:07.789 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:46:07.789 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:46:07.789 +01:00 [DBG] Start authorize request
+2020-02-27 18:46:07.789 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:46:07.789 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:46:07.789 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:46:07.796 +01:00 [ERR] Client requested access token - but client is not configured to receive access tokens via browser
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:46:07.796 +01:00 [ERR] Request validation failed
+2020-02-27 18:46:07.796 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:47:07.195 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 18:47:07.238 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 18:47:07.242 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 18:47:07.242 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 18:47:07.242 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 18:47:07.242 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 18:47:07.242 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 18:47:07.242 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 18:47:07.506 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 18:47:07.508 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 18:47:07.508 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 18:47:07.508 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 18:47:07.508 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 18:47:07.508 +01:00 [DBG] Error Url: /home/error
+2020-02-27 18:47:07.508 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 18:47:41.967 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:47:42.000 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:47:42.000 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:47:42.004 +01:00 [DBG] Start authorize request
+2020-02-27 18:47:42.012 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:47:42.014 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:47:42.026 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:47:42.052 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 18:47:42.065 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:47:42.070 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 18:53:26.702 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:53:26.753 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:53:26.753 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:53:26.753 +01:00 [DBG] Start authorize request
+2020-02-27 18:53:26.753 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:53:26.753 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:53:26.753 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:53:26.754 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 18:53:26.754 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:53:26.755 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 18:53:50.928 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 18:53:50.979 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 18:53:50.983 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 18:53:50.983 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 18:53:50.983 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 18:53:50.983 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 18:53:50.983 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 18:53:50.983 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 18:53:51.201 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 18:53:51.201 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 18:53:51.201 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 18:53:51.201 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 18:53:51.201 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 18:53:51.202 +01:00 [DBG] Error Url: /home/error
+2020-02-27 18:53:51.202 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 18:54:04.770 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:54:04.804 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:54:04.804 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:54:04.806 +01:00 [DBG] Start authorize request
+2020-02-27 18:54:04.816 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:54:04.819 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:54:04.833 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:54:04.859 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 18:54:04.871 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:54:04.877 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 18:59:45.774 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 18:59:45.819 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 18:59:45.822 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 18:59:45.822 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 18:59:45.822 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 18:59:45.822 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 18:59:45.822 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 18:59:45.822 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 18:59:46.029 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 18:59:46.029 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 18:59:46.030 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 18:59:46.030 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 18:59:46.030 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 18:59:46.030 +01:00 [DBG] Error Url: /home/error
+2020-02-27 18:59:46.030 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 18:59:58.876 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 18:59:58.921 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 18:59:58.921 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 18:59:58.925 +01:00 [DBG] Start authorize request
+2020-02-27 18:59:58.931 +01:00 [DBG] No user present in authorize request
+2020-02-27 18:59:58.934 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 18:59:58.948 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 18:59:58.987 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 18:59:59.003 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 18:59:59.010 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:00:11.600 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:00:11.602 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:00:11.602 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:00:11.602 +01:00 [DBG] Start authorize request
+2020-02-27 19:00:11.603 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:00:11.603 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:00:11.603 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:00:11.604 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:00:11.605 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:00:11.605 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:01:57.184 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:01:57.185 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:01:57.186 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:01:57.186 +01:00 [DBG] Start authorize request
+2020-02-27 19:01:57.186 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:01:57.186 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:01:57.186 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:01:57.186 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:01:57.186 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:01:57.186 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:06:44.646 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:06:44.688 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:06:44.692 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:06:44.692 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:06:44.692 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 19:06:44.692 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 19:06:44.692 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:06:44.692 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:06:44.901 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:06:44.903 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:06:44.903 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:06:44.903 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:06:44.903 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:06:44.903 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:06:44.903 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:06:53.012 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:06:53.058 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:06:53.058 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:06:53.061 +01:00 [DBG] Start authorize request
+2020-02-27 19:06:53.067 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:06:53.070 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:06:53.087 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:06:53.119 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:06:53.132 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:06:53.137 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:07:59.188 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:07:59.228 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:07:59.231 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:07:59.231 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:07:59.231 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 19:07:59.231 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 19:07:59.231 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:07:59.231 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:07:59.439 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:07:59.440 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:07:59.440 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:07:59.440 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:07:59.441 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:07:59.441 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:07:59.441 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:08:20.759 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:08:20.796 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:08:20.796 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:08:20.798 +01:00 [DBG] Start authorize request
+2020-02-27 19:08:20.804 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:08:20.807 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:08:20.816 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:08:20.846 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:08:20.861 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:08:20.866 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:08:35.389 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:08:35.390 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:08:35.390 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:08:35.405 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:08:35.406 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:08:35.406 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:08:35.408 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:08:35.411 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:08:35.411 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:08:35.411 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:08:35.412 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:08:35.412 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:08:35.412 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:10:43.412 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:10:43.460 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:10:43.464 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:10:43.464 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:10:43.464 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-02-27 19:10:43.464 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-02-27 19:10:43.464 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:10:43.464 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:10:43.702 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:10:43.703 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:10:43.703 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:10:43.703 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:10:43.704 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:10:43.704 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:10:43.704 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:11:05.119 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:11:05.182 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:11:05.182 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:11:05.184 +01:00 [DBG] Start authorize request
+2020-02-27 19:11:05.189 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:11:05.192 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:11:05.205 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:11:05.234 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:11:05.247 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:11:05.252 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:11:13.818 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:11:13.819 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:11:13.819 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:11:13.834 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:11:13.835 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:11:13.835 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:11:13.837 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:11:13.840 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:11:13.840 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:11:13.840 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:11:13.840 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:11:13.841 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:11:13.841 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:15:12.229 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:15:12.281 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:15:12.285 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:15:12.285 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:15:12.285 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:15:12.285 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:15:12.285 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:15:12.285 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:15:12.756 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectPostConfigureOptions.PostConfigure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-27 19:15:59.441 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:15:59.481 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:15:59.485 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:15:59.485 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:15:59.485 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:15:59.485 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:15:59.485 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:15:59.485 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:15:59.765 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:15:59.765 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:15:59.765 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:15:59.765 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:15:59.765 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:15:59.765 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:15:59.765 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:16:10.900 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:16:10.922 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:16:10.922 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:16:10.927 +01:00 [DBG] Start authorize request
+2020-02-27 19:16:10.938 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:16:10.940 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:16:10.962 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:16:10.997 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:16:11.011 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:16:11.019 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:16:18.266 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:16:18.267 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:16:18.267 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:16:18.280 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:16:18.281 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:16:18.281 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:16:18.282 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:16:18.285 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:16:18.285 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:16:18.285 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:16:18.285 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:16:18.285 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:16:18.285 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:40:14.355 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:40:14.356 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:40:14.356 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:40:17.136 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:40:17.137 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:40:17.137 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:40:17.137 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:40:17.137 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:40:17.137 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:40:17.137 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:40:17.137 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:40:17.137 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:40:17.137 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:42:28.716 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:42:28.755 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:42:28.759 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:42:28.759 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:42:28.760 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:42:28.760 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:42:28.760 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:42:28.760 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:42:29.029 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:42:29.030 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:42:29.030 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:42:29.030 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:42:29.030 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:42:29.030 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:42:29.030 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:42:35.527 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:42:35.549 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:42:35.549 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:42:35.558 +01:00 [DBG] Start authorize request
+2020-02-27 19:42:35.567 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:42:35.573 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:42:35.598 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:42:35.657 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:42:35.680 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:42:35.689 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:42:45.226 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:42:45.227 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:42:45.227 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:42:45.241 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:42:45.242 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:42:45.242 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:42:45.244 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:42:45.247 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:42:45.247 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:42:45.248 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:42:45.248 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:42:45.248 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:42:45.248 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:49:16.289 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:49:16.342 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:49:16.345 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:49:16.345 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:49:16.345 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:49:16.345 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:49:16.345 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:49:16.345 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:49:16.677 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:49:16.678 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:49:16.678 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:49:16.678 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:49:16.678 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:49:16.678 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:49:16.678 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:49:44.412 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:49:44.420 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:49:44.421 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:49:44.423 +01:00 [DBG] Start authorize request
+2020-02-27 19:49:44.428 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:49:44.430 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:49:44.441 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:49:44.466 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:49:44.478 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:49:44.483 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:49:51.164 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:49:51.165 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:49:51.165 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:49:51.180 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:49:51.181 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:49:51.181 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:49:51.184 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:49:51.188 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:49:51.188 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:49:51.188 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:49:51.189 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:49:51.189 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:49:51.189 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:50:47.520 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:50:47.585 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:50:47.588 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:50:47.588 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:50:47.588 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:50:47.588 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:50:47.588 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:50:47.589 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:50:48.053 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:50:48.054 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:50:48.054 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:50:48.054 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:50:48.054 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:50:48.054 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:50:48.054 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:50:55.288 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:50:55.306 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:50:55.306 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:50:55.308 +01:00 [DBG] Start authorize request
+2020-02-27 19:50:55.318 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:50:55.322 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:50:55.359 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:50:55.391 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:50:55.407 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:50:55.412 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:51:08.466 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:51:08.468 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:51:08.468 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:51:08.468 +01:00 [DBG] Start authorize request
+2020-02-27 19:51:08.469 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:51:08.469 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:51:08.469 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:51:08.469 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:51:08.470 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:51:08.470 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:51:16.202 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:51:16.203 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:51:16.203 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:51:16.216 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:51:16.217 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:51:16.217 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:51:16.219 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:51:16.221 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:51:16.221 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:51:16.221 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:51:16.221 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:51:16.221 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:51:16.221 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:52:32.850 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-27 19:52:32.888 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-27 19:52:32.892 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-27 19:52:32.892 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-27 19:52:32.892 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-27 19:52:32.892 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-27 19:52:32.892 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-27 19:52:32.892 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-27 19:52:33.319 +01:00 [DBG] Login Url: /Account/Login
+2020-02-27 19:52:33.320 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-27 19:52:33.320 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-27 19:52:33.320 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-27 19:52:33.320 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-27 19:52:33.321 +01:00 [DBG] Error Url: /home/error
+2020-02-27 19:52:33.321 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-27 19:52:45.807 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-27 19:52:45.825 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-27 19:52:45.825 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-27 19:52:45.834 +01:00 [DBG] Start authorize request
+2020-02-27 19:52:45.849 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:52:45.854 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:52:45.872 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:52:45.902 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:52:45.915 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:52:45.922 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:52:53.378 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:52:53.379 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:52:53.379 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:52:53.392 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:52:53.393 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:52:53.393 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:52:53.395 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:52:53.397 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:52:53.397 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:52:53.397 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:52:53.398 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:52:53.398 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:52:53.398 +01:00 [INF] Showing login: User is not authenticated
+2020-02-27 19:53:09.298 +01:00 [DBG] Augmenting SignInContext
+2020-02-27 19:53:09.298 +01:00 [DBG] Adding idp claim with value: local
+2020-02-27 19:53:09.298 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-27 19:53:09.303 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-27 19:53:09.303 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-27 19:53:09.303 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-27 19:53:09.303 +01:00 [DBG] Start authorize callback request
+2020-02-27 19:53:09.303 +01:00 [DBG] No user present in authorize request
+2020-02-27 19:53:09.303 +01:00 [DBG] Start authorize request protocol validation
+2020-02-27 19:53:09.303 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-27 19:53:09.304 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-27 19:53:09.304 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-27 19:53:09.304 +01:00 [INF] Showing login: User is not authenticated

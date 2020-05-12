@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+#ScheduleForm {
+    position: relative;
+}
+
+#ScheduleForm > * {
+    margin-bottom: 30px;
+}
+
+#ScheduleForm > div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+div.loader {
+    font-size: 100px;
+}
+
+.blocked {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 !important;
+    opacity: 0.05;
+    background-color: black;
+}

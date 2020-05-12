@@ -1,0 +1,30 @@
+#account{
+    h2 {
+        font-size: 1.7rem;
+        border-bottom: 1px solid rgb(240, 237, 237);
+        padding-bottom: 15px;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-top: 0;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+#account > * {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(235, 234, 234);
+    padding-bottom: 20px;
+}
+
+#account > *:last-child {
+    border-bottom: none;
+}

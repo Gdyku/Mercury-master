@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercury.Api", "Mercury.Api\Mercury.Api.csproj", "{40D9A536-7E56-4006-A3C6-A60F8E1BE623}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercury.DAL", "Mercury.DAL\Mercury.DAL.csproj", "{BDF7EC59-C394-4219-9A6D-983BEE1E7D16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercury.BLL", "Mercury.BLL\Mercury.BLL.csproj", "{9ABFF3EE-C3EB-403C-B7CE-1DD141F99EC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercury.Infrastructure", "Mercury.Infrastructure\Mercury.Infrastructure.csproj", "{E00DFF94-08C3-4D7D-A8AF-01DE0636EC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercury.IdentityServer", "Mercury.IdentityServer\Mercury.IdentityServer.csproj", "{C13B074B-6207-4F37-9B80-84B496B67EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D9A536-7E56-4006-A3C6-A60F8E1BE623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D9A536-7E56-4006-A3C6-A60F8E1BE623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D9A536-7E56-4006-A3C6-A60F8E1BE623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D9A536-7E56-4006-A3C6-A60F8E1BE623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF7EC59-C394-4219-9A6D-983BEE1E7D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF7EC59-C394-4219-9A6D-983BEE1E7D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF7EC59-C394-4219-9A6D-983BEE1E7D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF7EC59-C394-4219-9A6D-983BEE1E7D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABFF3EE-C3EB-403C-B7CE-1DD141F99EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABFF3EE-C3EB-403C-B7CE-1DD141F99EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABFF3EE-C3EB-403C-B7CE-1DD141F99EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABFF3EE-C3EB-403C-B7CE-1DD141F99EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00DFF94-08C3-4D7D-A8AF-01DE0636EC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00DFF94-08C3-4D7D-A8AF-01DE0636EC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00DFF94-08C3-4D7D-A8AF-01DE0636EC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00DFF94-08C3-4D7D-A8AF-01DE0636EC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13B074B-6207-4F37-9B80-84B496B67EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13B074B-6207-4F37-9B80-84B496B67EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13B074B-6207-4F37-9B80-84B496B67EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13B074B-6207-4F37-9B80-84B496B67EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {971EE989-C0F9-491B-86F4-4A9353F295EA}
+	EndGlobalSection
+EndGlobal

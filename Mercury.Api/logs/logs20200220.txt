@@ -1,0 +1,5 @@
+2020-02-20 20:18:54.520 +01:00 [ERR] ScheduleController | Error | Error message : Exception of type 'System.Exception' was thrown.
+2020-02-20 20:19:44.961 +01:00 [ERR] ScheduleController | Error | Error message : Exception of type 'System.Exception' was thrown.
+2020-02-20 20:20:55.859 +01:00 [ERR] ScheduleController | Error | Error message : Exception of type 'System.Exception' was thrown.
+2020-02-20 20:21:19.359 +01:00 [ERR] ScheduleController | Error | Error message : Exception of type 'System.Exception' was thrown.
+2020-02-20 20:22:01.326 +01:00 [ERR] ScheduleController | Error | Error message : Exception of type 'System.Exception' was thrown.

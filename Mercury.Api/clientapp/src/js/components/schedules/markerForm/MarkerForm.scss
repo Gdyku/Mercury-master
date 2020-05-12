@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+#MarkerForm div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapContainer {
+    position: relative; 
+    min-height: 400px;
+}

@@ -1,0 +1,207 @@
+2020-02-29 06:04:18.309 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-29 06:04:18.376 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-29 06:04:18.381 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-29 06:04:18.381 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-29 06:04:18.382 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-29 06:04:18.382 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-29 06:04:18.382 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-29 06:04:18.382 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-29 06:04:19.069 +01:00 [DBG] Login Url: /Account/Login
+2020-02-29 06:04:19.070 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-29 06:04:19.070 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-29 06:04:19.070 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-29 06:04:19.070 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-29 06:04:19.070 +01:00 [DBG] Error Url: /home/error
+2020-02-29 06:04:19.070 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-29 06:04:44.922 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-29 06:04:44.956 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-29 06:04:44.956 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-29 06:04:44.959 +01:00 [DBG] Start authorize request
+2020-02-29 06:04:44.968 +01:00 [DBG] No user present in authorize request
+2020-02-29 06:04:44.973 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:04:44.990 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:04:45.030 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-29 06:04:45.048 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:04:45.055 +01:00 [INF] Showing login: User is not authenticated
+2020-02-29 06:04:57.606 +01:00 [DBG] Augmenting SignInContext
+2020-02-29 06:04:57.607 +01:00 [DBG] Adding idp claim with value: local
+2020-02-29 06:04:57.607 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-29 06:04:57.623 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-29 06:04:57.624 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-29 06:04:57.624 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-29 06:04:57.627 +01:00 [DBG] Start authorize callback request
+2020-02-29 06:04:57.630 +01:00 [DBG] No user present in authorize request
+2020-02-29 06:04:57.630 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:04:57.630 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:04:57.631 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-29 06:04:57.631 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"mercuryApi","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"response_type":"token","state":"","client_id":"implicitClient","scope":"mercuryApi","redirect_uri":"http://localhost:5002/signin-oidc"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:04:57.631 +01:00 [INF] Showing login: User is not authenticated
+2020-02-29 06:27:05.085 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-29 06:27:05.149 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-29 06:27:05.153 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-29 06:27:05.153 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-29 06:27:05.153 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-29 06:27:05.153 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-29 06:27:05.153 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-29 06:27:05.153 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-29 06:27:05.639 +01:00 [DBG] Login Url: /Account/Login
+2020-02-29 06:27:05.640 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-29 06:27:05.640 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-29 06:27:05.640 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-29 06:27:05.640 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-29 06:27:05.640 +01:00 [DBG] Error Url: /home/error
+2020-02-29 06:27:05.640 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-29 06:27:12.855 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-02-29 06:27:12.858 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-02-29 06:27:12.858 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-02-29 06:27:12.861 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-02-29 06:27:12.863 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-02-29 06:27:12.864 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-02-29 06:27:12.866 +01:00 [DBG] Start discovery request
+2020-02-29 06:27:12.988 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-29 06:27:13.000 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-29 06:27:13.000 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-29 06:27:13.002 +01:00 [DBG] Start authorize request
+2020-02-29 06:27:13.009 +01:00 [DBG] No user present in authorize request
+2020-02-29 06:27:13.013 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:27:13.030 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:27:13.052 +01:00 [ERR] Invalid redirect_uri: http://localhost:5003/callback.html
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:5003/callback.html","response_type":"id_token token","scope":"openid profile mercuryApi","state":"43b476fd3e40488d9b215563b1e6a6b5","nonce":"869c3b18691d42d5a4eb95a13b918961"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:27:13.056 +01:00 [ERR] Request validation failed
+2020-02-29 06:27:13.057 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:5003/callback.html","response_type":"id_token token","scope":"openid profile mercuryApi","state":"43b476fd3e40488d9b215563b1e6a6b5","nonce":"869c3b18691d42d5a4eb95a13b918961"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:35:37.995 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-29 06:35:38.037 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-29 06:35:38.040 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-29 06:35:38.040 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-29 06:35:38.040 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-29 06:35:38.040 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-29 06:35:38.040 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-29 06:35:38.040 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-29 06:35:38.344 +01:00 [DBG] Login Url: /Account/Login
+2020-02-29 06:35:38.344 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-29 06:35:38.344 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-29 06:35:38.344 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-29 06:35:38.345 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-29 06:35:38.345 +01:00 [DBG] Error Url: /home/error
+2020-02-29 06:35:38.345 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-29 06:35:38.482 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-02-29 06:35:38.486 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-02-29 06:35:38.486 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-02-29 06:35:38.488 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-02-29 06:35:38.492 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-02-29 06:35:38.492 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-02-29 06:35:38.494 +01:00 [DBG] Start discovery request
+2020-02-29 06:35:38.644 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-29 06:35:38.658 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-29 06:35:38.658 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-29 06:35:38.661 +01:00 [DBG] Start authorize request
+2020-02-29 06:35:38.667 +01:00 [DBG] No user present in authorize request
+2020-02-29 06:35:38.671 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:35:38.692 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:35:38.713 +01:00 [ERR] Invalid redirect_uri: http://localhost:5003/callback.html
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:5003/callback.html","response_type":"id_token token","scope":"openid profile mercuryApi","state":"a51f17077f0a42e6b3993b57485d63b0","nonce":"3695d53f6b484f7aa546bccd36c9dfb7"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:35:38.720 +01:00 [ERR] Request validation failed
+2020-02-29 06:35:38.721 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:5003/callback.html","response_type":"id_token token","scope":"openid profile mercuryApi","state":"a51f17077f0a42e6b3993b57485d63b0","nonce":"3695d53f6b484f7aa546bccd36c9dfb7"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:39:21.419 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-29 06:39:21.465 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-29 06:39:21.469 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-29 06:39:21.469 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-29 06:39:21.469 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-29 06:39:21.469 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-29 06:39:21.469 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-29 06:39:21.469 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-29 06:39:21.752 +01:00 [DBG] Login Url: /Account/Login
+2020-02-29 06:39:21.752 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-29 06:39:21.752 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-29 06:39:21.752 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-29 06:39:21.752 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-29 06:39:21.752 +01:00 [DBG] Error Url: /home/error
+2020-02-29 06:39:21.752 +01:00 [DBG] Error Id Parameter: errorId
+2020-02-29 06:39:24.738 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-02-29 06:39:24.740 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-02-29 06:39:24.741 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-02-29 06:39:24.742 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-02-29 06:39:24.744 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-02-29 06:39:24.744 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-02-29 06:39:24.745 +01:00 [DBG] Start discovery request
+2020-02-29 06:39:24.817 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-29 06:39:24.823 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-29 06:39:24.823 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-29 06:39:24.825 +01:00 [DBG] Start authorize request
+2020-02-29 06:39:24.830 +01:00 [DBG] No user present in authorize request
+2020-02-29 06:39:24.831 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:39:24.841 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:39:24.863 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-29 06:39:24.874 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"id_token token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile mercuryApi","State":"82919a0dc13b40978abfd0bee98b5ada","UiLocales":null,"Nonce":"8769446c793a44d6b92c60ffeee277ed","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token token","scope":"openid profile mercuryApi","state":"82919a0dc13b40978abfd0bee98b5ada","nonce":"8769446c793a44d6b92c60ffeee277ed"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:39:24.879 +01:00 [INF] Showing login: User is not authenticated
+2020-02-29 06:39:32.857 +01:00 [DBG] Augmenting SignInContext
+2020-02-29 06:39:32.858 +01:00 [DBG] Adding idp claim with value: local
+2020-02-29 06:39:32.858 +01:00 [DBG] Adding amr claim with value: pwd
+2020-02-29 06:39:32.871 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-02-29 06:39:32.872 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-02-29 06:39:32.872 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-02-29 06:39:32.874 +01:00 [DBG] Start authorize callback request
+2020-02-29 06:39:32.877 +01:00 [DBG] User in authorize request: ssfsd
+2020-02-29 06:39:32.877 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:39:32.877 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:39:32.878 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-29 06:39:32.878 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"ssfsd","ResponseType":"id_token token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile mercuryApi","State":"82919a0dc13b40978abfd0bee98b5ada","UiLocales":null,"Nonce":"8769446c793a44d6b92c60ffeee277ed","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"_6VNAhOxTXI1NKnuGe7yyA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token token","scope":"openid profile mercuryApi","state":"82919a0dc13b40978abfd0bee98b5ada","nonce":"8769446c793a44d6b92c60ffeee277ed"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:39:32.879 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-02-29 06:39:32.884 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-02-29 06:39:32.888 +01:00 [DBG] Creating Implicit Flow response.
+2020-02-29 06:39:32.893 +01:00 [DBG] Getting claims for access token for client: implicitClient
+2020-02-29 06:39:32.893 +01:00 [DBG] Getting claims for access token for subject: ssfsd
+2020-02-29 06:39:32.896 +01:00 [DBG] Get profile called for subject ssfsd from client implicitClient with claim types [] via ClaimsProviderAccessToken
+2020-02-29 06:39:32.897 +01:00 [DBG] Issued claims: []
+2020-02-29 06:39:32.996 +01:00 [DBG] Getting claims for identity token for subject: ssfsd and client: implicitClient
+2020-02-29 06:39:32.996 +01:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2020-02-29 06:39:33.004 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"ssfsd","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"82919a0dc13b40978abfd0bee98b5ada","Scope":"openid profile mercuryApi","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-02-29 06:39:33.011 +01:00 [DBG] Augmenting SignInContext
+2020-02-29 06:39:38.481 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-02-29 06:39:38.482 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-02-29 06:39:38.482 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-02-29 06:39:38.482 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-02-29 06:39:38.483 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-02-29 06:39:38.483 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-02-29 06:39:38.483 +01:00 [DBG] Start discovery request
+2020-02-29 06:39:38.494 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-02-29 06:39:38.494 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-02-29 06:39:38.494 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-02-29 06:39:38.494 +01:00 [DBG] Start authorize request
+2020-02-29 06:39:38.494 +01:00 [DBG] User in authorize request: ssfsd
+2020-02-29 06:39:38.494 +01:00 [DBG] Start authorize request protocol validation
+2020-02-29 06:39:38.494 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-02-29 06:39:38.494 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-02-29 06:39:38.495 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"ssfsd","ResponseType":"id_token token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile mercuryApi","State":"3acab8608c7a4c8494873f063d345c3e","UiLocales":null,"Nonce":"6fbc757d1a61402ba1c4039a4fe8cd6a","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"_6VNAhOxTXI1NKnuGe7yyA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token token","scope":"openid profile mercuryApi","state":"3acab8608c7a4c8494873f063d345c3e","nonce":"6fbc757d1a61402ba1c4039a4fe8cd6a"},"$type":"AuthorizeRequestValidationLog"}
+2020-02-29 06:39:38.495 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-02-29 06:39:38.495 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-02-29 06:39:38.495 +01:00 [DBG] Creating Implicit Flow response.
+2020-02-29 06:39:38.495 +01:00 [DBG] Getting claims for access token for client: implicitClient
+2020-02-29 06:39:38.495 +01:00 [DBG] Getting claims for access token for subject: ssfsd
+2020-02-29 06:39:38.495 +01:00 [DBG] Get profile called for subject ssfsd from client implicitClient with claim types [] via ClaimsProviderAccessToken
+2020-02-29 06:39:38.495 +01:00 [DBG] Issued claims: []
+2020-02-29 06:39:38.496 +01:00 [DBG] Getting claims for identity token for subject: ssfsd and client: implicitClient
+2020-02-29 06:39:38.496 +01:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2020-02-29 06:39:38.497 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"ssfsd","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"3acab8608c7a4c8494873f063d345c3e","Scope":"openid profile mercuryApi","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-02-29 17:45:13.100 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-02-29 17:45:13.170 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-02-29 17:45:13.173 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-02-29 17:45:13.173 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-02-29 17:45:13.173 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-02-29 17:45:13.173 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-02-29 17:45:13.173 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-02-29 17:45:13.173 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-02-29 17:45:13.778 +01:00 [DBG] Login Url: /Account/Login
+2020-02-29 17:45:13.781 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-02-29 17:45:13.781 +01:00 [DBG] Logout Url: /Account/Logout
+2020-02-29 17:45:13.781 +01:00 [DBG] ConsentUrl Url: /consent
+2020-02-29 17:45:13.781 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-02-29 17:45:13.781 +01:00 [DBG] Error Url: /home/error
+2020-02-29 17:45:13.781 +01:00 [DBG] Error Id Parameter: errorId

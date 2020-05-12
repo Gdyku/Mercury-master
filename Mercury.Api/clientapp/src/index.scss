@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#auth-nav * {
+    margin-right: 15px;
+}
+
+#content { 
+    padding: 40px;
+}
+
+.row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+

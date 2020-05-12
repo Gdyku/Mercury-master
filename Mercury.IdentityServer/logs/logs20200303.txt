@@ -1,0 +1,330 @@
+2020-03-03 20:26:26.991 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:26:27.111 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:26:27.111 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:26:27.120 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:26:27.121 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:26:27.122 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:26:27.122 +01:00 [DBG] Start discovery request
+2020-03-03 20:26:27.290 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:26:27.293 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:26:27.293 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:26:27.294 +01:00 [DBG] Start authorize request
+2020-03-03 20:26:27.295 +01:00 [DBG] No user present in authorize request
+2020-03-03 20:26:27.295 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:26:27.295 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:26:27.296 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:26:27.300 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"791012931acb4904b9f4a97b9f15f483","UiLocales":null,"Nonce":"0cd9e5fd12e64ca18553bf155e454a3d","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"791012931acb4904b9f4a97b9f15f483","nonce":"0cd9e5fd12e64ca18553bf155e454a3d"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:26:27.301 +01:00 [INF] Showing login: User is not authenticated
+2020-03-03 20:26:35.633 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:26:35.634 +01:00 [DBG] Adding idp claim with value: local
+2020-03-03 20:26:35.634 +01:00 [DBG] Adding amr claim with value: pwd
+2020-03-03 20:26:35.646 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-03-03 20:26:35.647 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-03-03 20:26:35.647 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-03 20:26:35.647 +01:00 [DBG] Start authorize callback request
+2020-03-03 20:26:35.649 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:26:35.649 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:26:35.649 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:26:35.649 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:26:35.649 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"791012931acb4904b9f4a97b9f15f483","UiLocales":null,"Nonce":"0cd9e5fd12e64ca18553bf155e454a3d","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"oFKmUXOwzth5ovbTbI3VaA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"791012931acb4904b9f4a97b9f15f483","nonce":"0cd9e5fd12e64ca18553bf155e454a3d"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:26:35.649 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:26:35.649 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:26:35.649 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:26:35.650 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:26:35.652 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:26:35.653 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:26:35.663 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"791012931acb4904b9f4a97b9f15f483","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:26:35.664 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:28:04.364 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:28:04.366 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:28:04.366 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:28:04.367 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:28:04.369 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:28:04.369 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:28:04.369 +01:00 [DBG] Start discovery request
+2020-03-03 20:28:04.400 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:28:04.406 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:28:04.406 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:28:04.407 +01:00 [DBG] Start authorize request
+2020-03-03 20:28:04.407 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:28:04.407 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:04.407 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:04.407 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:04.407 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"35b6f391a3f64ace86b652fdd972730c","UiLocales":null,"Nonce":"c340a25d6101434cb25a96257e931865","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"oFKmUXOwzth5ovbTbI3VaA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"35b6f391a3f64ace86b652fdd972730c","nonce":"c340a25d6101434cb25a96257e931865"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:04.408 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:28:04.408 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:28:04.408 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:28:04.408 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:28:04.409 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:28:04.409 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:28:04.412 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"35b6f391a3f64ace86b652fdd972730c","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:28:06.637 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:28:06.638 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:28:06.638 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:28:06.638 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:28:06.638 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:28:06.638 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:28:06.638 +01:00 [DBG] Start discovery request
+2020-03-03 20:28:06.652 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:28:06.652 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:28:06.652 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:28:06.652 +01:00 [DBG] Start authorize request
+2020-03-03 20:28:06.652 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:28:06.652 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:06.652 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:06.652 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:06.652 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"840451b8e8af4967ade0a3bf8769e0c5","UiLocales":null,"Nonce":"93c33666f97942a09bfc3baa6364d183","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"oFKmUXOwzth5ovbTbI3VaA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"840451b8e8af4967ade0a3bf8769e0c5","nonce":"93c33666f97942a09bfc3baa6364d183"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:06.653 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:28:06.653 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:28:06.653 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:28:06.653 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:28:06.653 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:28:06.653 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:28:06.654 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"840451b8e8af4967ade0a3bf8769e0c5","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:28:08.101 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:28:08.107 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:28:08.107 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:28:08.110 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:28:08.110 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:28:08.110 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:28:08.110 +01:00 [DBG] Start discovery request
+2020-03-03 20:28:08.122 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:28:08.122 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:28:08.122 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:28:08.122 +01:00 [DBG] Start authorize request
+2020-03-03 20:28:08.122 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:28:08.122 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:08.122 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:08.123 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:08.123 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"350a15bd3db7475baa8547f6ec3ff64c","UiLocales":null,"Nonce":"bbc64d48b9934223bf6a83ef8ffc30a2","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"oFKmUXOwzth5ovbTbI3VaA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"350a15bd3db7475baa8547f6ec3ff64c","nonce":"bbc64d48b9934223bf6a83ef8ffc30a2"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:08.123 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:28:08.123 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:28:08.123 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:28:08.124 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:28:08.124 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:28:08.124 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:28:08.126 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"350a15bd3db7475baa8547f6ec3ff64c","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:28:09.012 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:28:09.012 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:28:09.012 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:28:09.012 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:28:09.012 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:28:09.012 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:28:09.013 +01:00 [DBG] Start discovery request
+2020-03-03 20:28:09.030 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:28:09.030 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:28:09.030 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:28:09.030 +01:00 [DBG] Start authorize request
+2020-03-03 20:28:09.030 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:28:09.030 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:09.030 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:09.031 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:09.031 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"c7e4f512fdb5444598c648c5f9c662b1","UiLocales":null,"Nonce":"4b8de5b191134b12ba8a669af8d321c4","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"oFKmUXOwzth5ovbTbI3VaA","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"c7e4f512fdb5444598c648c5f9c662b1","nonce":"4b8de5b191134b12ba8a669af8d321c4"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:09.031 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:28:09.031 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:28:09.031 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:28:09.031 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:28:09.032 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:28:09.032 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:28:09.035 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"c7e4f512fdb5444598c648c5f9c662b1","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:28:29.231 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:28:29.231 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:28:29.231 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:28:29.236 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:28:29.236 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:28:29.236 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:28:29.237 +01:00 [DBG] Start discovery request
+2020-03-03 20:28:29.252 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:28:29.253 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:28:29.253 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:28:29.253 +01:00 [DBG] Start authorize request
+2020-03-03 20:28:29.253 +01:00 [DBG] No user present in authorize request
+2020-03-03 20:28:29.253 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:29.253 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:29.257 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:29.258 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"c745ae5661fd43b382471051d6590373","UiLocales":null,"Nonce":"15f7a15fcf7f414998a71c3001e3d18e","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"c745ae5661fd43b382471051d6590373","nonce":"15f7a15fcf7f414998a71c3001e3d18e"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:29.258 +01:00 [INF] Showing login: User is not authenticated
+2020-03-03 20:28:34.194 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:28:34.195 +01:00 [DBG] Adding idp claim with value: local
+2020-03-03 20:28:34.195 +01:00 [DBG] Adding amr claim with value: pwd
+2020-03-03 20:28:34.201 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-03-03 20:28:34.203 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-03-03 20:28:34.203 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-03 20:28:34.203 +01:00 [DBG] Start authorize callback request
+2020-03-03 20:28:34.204 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:28:34.204 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:28:34.204 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:28:34.204 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:28:34.205 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"id_token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"openid profile","State":"c745ae5661fd43b382471051d6590373","UiLocales":null,"Nonce":"15f7a15fcf7f414998a71c3001e3d18e","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"LV7Eti8Xt7KjSy9kFOXgAg","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"id_token","scope":"openid profile","state":"c745ae5661fd43b382471051d6590373","nonce":"15f7a15fcf7f414998a71c3001e3d18e"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:28:34.205 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:28:34.205 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:28:34.205 +01:00 [DBG] Creating Implicit Flow response.
+2020-03-03 20:28:34.205 +01:00 [DBG] Getting claims for identity token for subject: test2@test.com and client: implicitClient
+2020-03-03 20:28:34.205 +01:00 [DBG] Get profile called for subject test2@test.com from client implicitClient with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2020-03-03 20:28:34.205 +01:00 [DBG] Issued claims: ["name"]
+2020-03-03 20:28:34.206 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"c745ae5661fd43b382471051d6590373","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:28:34.206 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:30:11.684 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:30:11.684 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:30:11.685 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:30:11.685 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:30:11.690 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:30:11.690 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:30:11.690 +01:00 [DBG] Start discovery request
+2020-03-03 20:30:11.720 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:30:11.720 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:30:11.721 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:30:11.721 +01:00 [DBG] Start authorize request
+2020-03-03 20:30:11.721 +01:00 [DBG] No user present in authorize request
+2020-03-03 20:30:11.721 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:30:11.721 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:30:11.721 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:30:11.725 +01:00 [ERR] Invalid grant type for client: authorization_code
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"","State":"3e52541b7f164ac9ae91ed693a3583d9","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"3e52541b7f164ac9ae91ed693a3583d9","code_challenge":"18ZXf_xggOw5T0ADl-E9eR5qg3sXwTqVh-WQyvLiMt0","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:30:11.731 +01:00 [ERR] Request validation failed
+2020-03-03 20:30:11.733 +01:00 [INF] {"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"","State":"3e52541b7f164ac9ae91ed693a3583d9","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"3e52541b7f164ac9ae91ed693a3583d9","code_challenge":"18ZXf_xggOw5T0ADl-E9eR5qg3sXwTqVh-WQyvLiMt0","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:31:15.085 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-03-03 20:31:15.172 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-03 20:31:15.175 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-03-03 20:31:15.175 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-03-03 20:31:15.175 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-03-03 20:31:15.175 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-03-03 20:31:15.175 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-03-03 20:31:15.175 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-03-03 20:31:15.840 +01:00 [DBG] Login Url: /Account/Login
+2020-03-03 20:31:15.841 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-03-03 20:31:15.841 +01:00 [DBG] Logout Url: /Account/Logout
+2020-03-03 20:31:15.841 +01:00 [DBG] ConsentUrl Url: /consent
+2020-03-03 20:31:15.841 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-03-03 20:31:15.841 +01:00 [DBG] Error Url: /home/error
+2020-03-03 20:31:15.841 +01:00 [DBG] Error Id Parameter: errorId
+2020-03-03 20:31:38.372 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:31:38.374 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:31:38.374 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:31:38.392 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:31:38.397 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:31:38.397 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:31:38.398 +01:00 [DBG] Start discovery request
+2020-03-03 20:31:38.509 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:31:38.521 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:31:38.521 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:31:38.523 +01:00 [DBG] Start authorize request
+2020-03-03 20:31:38.530 +01:00 [DBG] No user present in authorize request
+2020-03-03 20:31:38.531 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:31:38.545 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:31:38.553 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:31:38.567 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:31:38.581 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"7fa8b53f502545a49994502f3ac31c1a","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"7fa8b53f502545a49994502f3ac31c1a","code_challenge":"7eQWSfuuoqmI6IM-Dm1JuwehZe_ARQhrKmqR_wBC_do","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:31:38.586 +01:00 [INF] Showing login: User is not authenticated
+2020-03-03 20:31:47.051 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:31:47.054 +01:00 [DBG] Adding idp claim with value: local
+2020-03-03 20:31:47.054 +01:00 [DBG] Adding amr claim with value: pwd
+2020-03-03 20:31:47.079 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-03-03 20:31:47.080 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-03-03 20:31:47.080 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-03 20:31:47.083 +01:00 [DBG] Start authorize callback request
+2020-03-03 20:31:47.086 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:31:47.086 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:31:47.086 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:31:47.086 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:31:47.086 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:31:47.086 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"7fa8b53f502545a49994502f3ac31c1a","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"PdzKTgMlrKwFiDfEguMR1w","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"7fa8b53f502545a49994502f3ac31c1a","code_challenge":"7eQWSfuuoqmI6IM-Dm1JuwehZe_ARQhrKmqR_wBC_do","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:31:47.087 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:31:47.091 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:31:47.093 +01:00 [DBG] Creating Authorization Code Flow response.
+2020-03-03 20:31:47.128 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"7fa8b53f502545a49994502f3ac31c1a","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:31:47.135 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:39:57.703 +01:00 [INF] Starting IdentityServer4 version 3.1.2.0
+2020-03-03 20:39:57.750 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-03 20:39:57.756 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-03-03 20:39:57.756 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-03-03 20:39:57.756 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-in
+2020-03-03 20:39:57.756 +01:00 [DBG] Using idsrv.external as default ASP.NET Core scheme for sign-out
+2020-03-03 20:39:57.756 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-03-03 20:39:57.756 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-03-03 20:39:58.016 +01:00 [DBG] Login Url: /Account/Login
+2020-03-03 20:39:58.018 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-03-03 20:39:58.018 +01:00 [DBG] Logout Url: /Account/Logout
+2020-03-03 20:39:58.018 +01:00 [DBG] ConsentUrl Url: /consent
+2020-03-03 20:39:58.018 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-03-03 20:39:58.018 +01:00 [DBG] Error Url: /home/error
+2020-03-03 20:39:58.018 +01:00 [DBG] Error Id Parameter: errorId
+2020-03-03 20:40:02.692 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:40:02.693 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:40:02.693 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:40:02.694 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:40:02.696 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:40:02.696 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:40:02.698 +01:00 [DBG] Start discovery request
+2020-03-03 20:40:02.777 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:40:02.786 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:40:02.786 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:40:02.789 +01:00 [DBG] Start authorize request
+2020-03-03 20:40:02.795 +01:00 [DBG] No user present in authorize request
+2020-03-03 20:40:02.796 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:40:02.805 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:40:02.811 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:40:02.825 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:40:02.838 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"7674d43214a54eb8804dd0a8f251625e","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"7674d43214a54eb8804dd0a8f251625e","code_challenge":"l50nCXf7pOmiLJhREV5bqumAXpr3Ko9-Iev1iSMZA20","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:40:02.843 +01:00 [INF] Showing login: User is not authenticated
+2020-03-03 20:40:08.657 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:40:08.658 +01:00 [DBG] Adding idp claim with value: local
+2020-03-03 20:40:08.658 +01:00 [DBG] Adding amr claim with value: pwd
+2020-03-03 20:40:08.682 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-03-03 20:40:08.684 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-03-03 20:40:08.684 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-03 20:40:08.686 +01:00 [DBG] Start authorize callback request
+2020-03-03 20:40:08.690 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:40:08.690 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:40:08.690 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:40:08.690 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:40:08.690 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:40:08.691 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"7674d43214a54eb8804dd0a8f251625e","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"VJIM4GZBstnPDA4tNZJq1Q","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"7674d43214a54eb8804dd0a8f251625e","code_challenge":"l50nCXf7pOmiLJhREV5bqumAXpr3Ko9-Iev1iSMZA20","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:40:08.692 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:40:08.695 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:40:08.698 +01:00 [DBG] Creating Authorization Code Flow response.
+2020-03-03 20:40:08.732 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"7674d43214a54eb8804dd0a8f251625e","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2020-03-03 20:40:08.739 +01:00 [DBG] Augmenting SignInContext
+2020-03-03 20:41:08.554 +01:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:3000
+2020-03-03 20:41:08.555 +01:00 [DBG] Client list checked and origin: http://localhost:3000 is not allowed
+2020-03-03 20:41:08.559 +01:00 [WRN] CorsPolicyService did not allow origin: http://localhost:3000
+2020-03-03 20:41:08.559 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-03 20:41:08.561 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-03 20:41:08.561 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-03 20:41:08.564 +01:00 [DBG] Start discovery request
+2020-03-03 20:41:08.578 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-03 20:41:08.580 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-03 20:41:08.580 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-03 20:41:08.580 +01:00 [DBG] Start authorize request
+2020-03-03 20:41:08.580 +01:00 [DBG] User in authorize request: test2@test.com
+2020-03-03 20:41:08.580 +01:00 [DBG] Start authorize request protocol validation
+2020-03-03 20:41:08.580 +01:00 [DBG] client configuration validation for client implicitClient succeeded.
+2020-03-03 20:41:08.581 +01:00 [DBG] Checking for PKCE parameters
+2020-03-03 20:41:08.581 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-03 20:41:08.581 +01:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"implicitClient","ClientName":null,"RedirectUri":"http://localhost:3000/","AllowedRedirectUris":["http://localhost:3000/"],"SubjectId":"test2@test.com","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile","State":"f1340aae829a4ea8a831aaf49a81eed6","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"VJIM4GZBstnPDA4tNZJq1Q","Raw":{"client_id":"implicitClient","redirect_uri":"http://localhost:3000/","response_type":"code","scope":"openid profile","state":"f1340aae829a4ea8a831aaf49a81eed6","code_challenge":"wRLW_TMx0UoXGoPmMVZa6uREYGsSLDwDwt3lJWtRWp0","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2020-03-03 20:41:08.581 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2020-03-03 20:41:08.582 +01:00 [DBG] Client is configured to not require consent, no consent is required
+2020-03-03 20:41:08.582 +01:00 [DBG] Creating Authorization Code Flow response.
+2020-03-03 20:41:08.583 +01:00 [DBG] Authorize endpoint response
+{"SubjectId":"test2@test.com","ClientId":"implicitClient","RedirectUri":"http://localhost:3000/","State":"f1340aae829a4ea8a831aaf49a81eed6","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
